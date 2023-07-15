@@ -1,8 +1,8 @@
 import "./App.css";
 import New from "./component/New";
 function App() {
-  const fruits = ["apple", "BlueBerry", "mangos"];
-  const color = ["red", "Blue", "yellow"];
+  const fruits = ["apple", "BlueBerry", "mangos", "Grapes"];
+  const color = ["red", "Blue", "yellow", "violet"];
 
   return <New fruits={fruits} color={color} />;
 }
